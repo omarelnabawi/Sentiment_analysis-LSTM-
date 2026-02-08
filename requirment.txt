@@ -1,0 +1,5 @@
+pandas==1.5.3
+scikit-learn==1.3.2
+tensorflow==2.15.0
+kaggle==1.6.14
+fastapi==0.128
