@@ -1,5 +1,5 @@
 # Import necessary libraries
-from data_loader import load_data
+from .data_loader import load_data
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.preprocessing.text import Tokenizer

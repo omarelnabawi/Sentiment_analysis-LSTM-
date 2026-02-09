@@ -1,2 +1,53 @@
-Data
-nlp_env
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ==============================
+# Virtual Environment
+# ==============================
+nlp_env/
+venv/
+.env
+.env.*
+
+# ==============================
+# Data Files
+# ==============================
+Data/
+*.csv
+*.zip
+
+# ==============================
+# Model Files
+# ==============================
+models/
+*
+!models/model_epoch(5).keras
+# ==============================
+# Logs & Metrics
+# ==============================
+models_metrics/LOGS/*
+!LOGS/training_log_epoch(5).csv
+models_metrics/HISTORY/*
+!HISTORY/training_log_epoch(5).csv
+
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# System Files
+# ==============================
+.DS_Store
+Thumbs.db

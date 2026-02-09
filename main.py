@@ -1,7 +1,8 @@
-import json
+import sys
 import os
-kaggle_dict=json.load(open("Data/kaggle.json"))
+from src.train import model_train
+from src.prediction import predict_sentiment
 
-os.environ["KAGGLE_USERNAME"]=kaggle_dict["username"]
-os.environ["KAGGLE_KEY"]=kaggle_dict["key"]
 
+k = predict_sentiment(model_train(i=5),'i enjoy')
+print(k)
