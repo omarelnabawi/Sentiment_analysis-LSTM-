@@ -47,8 +47,7 @@ models_metrics/LOGS/*
 
 # ---- HISTORY ----
 models_metrics/HISTORY/*
-!models_metrics/HISTORY/
-!models_metrics/HISTORY/history_epoch(5).csv
+
 
 # ==============================
 # IDE
