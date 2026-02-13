@@ -30,14 +30,14 @@ Data/
 # ==============================
 models/
 *
-!models/model_epoch(5).keras
+#!models/model_epoch(5).keras
 # ==============================
 # Logs & Metrics
 # ==============================
 models_metrics/LOGS/*
 !LOGS/training_log_epoch(5).csv
 models_metrics/HISTORY/*
-!HISTORY/training_log_epoch(5).csv
+#!HISTORY/training_log_epoch(5).csv
 
 
 # ==============================
