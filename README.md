@@ -57,7 +57,7 @@ python -m venv nlp_env
 ```bash
 pip install -r requirement.txt
 ```
-## 🚀 Training the Model
+##  Training the Model
 
 ```bash
 python src/train.py
@@ -69,30 +69,29 @@ python src/train.py
 - Save the trained model inside models/
 
 - Save metrics and logs
+---
+### 🚀 Running the Project via Streamlit
+
+**To launch the app and allow others to test your model:**
+```bash
+streamlit run main.py
+```
+
+- This will open a local web interface where you can input movie reviews and see predicted sentiment (Positive / Negative).
+
 
 ## 📊 Model Performance
 
-### 5 epochs model output:
+### 7 epochs model output:
 
 - Validation Accuracy: ~90%
 
 - Loss: ~0.28
 
-**Notes 1:** you can use our Default model with `5 epochs` or choose the number of epochs you want but be carful `⚠️ it run in your local machine. `
+**Notes 1:** you can use our Default model with `7 epochs` or choose the number of epochs you want but be carful `⚠️ it run in your local machine. `
 
 **Notes 2:** Results vary depending on epochs and hyperparameters.
 
-## 🔮 Making Predictions
-
-### To test predictions:
-```bash
-python src/prediction.py
-```
-*Example:*
-```bash
-Input: "This movie was amazing!"
-Output: Positive
-```
 ## 🛠 Technologies Used
 
 - Python
