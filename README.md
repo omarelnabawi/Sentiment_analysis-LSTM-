@@ -26,6 +26,7 @@ The dataset used is the **IMDB 50K Movie Reviews Dataset**.
 
 ## 📂 Project Structure
 ```
+├──assets               # exaples for deployment
 ├── Data/               # ملفات البيانات (IMDB Dataset Zip)
 ├── models/             # The Best Model
 ├── models_metrics/     # نتائج تقييم النماذج (History & Logs)
