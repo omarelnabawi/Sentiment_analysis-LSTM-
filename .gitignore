@@ -51,3 +51,5 @@ models_metrics/HISTORY/*
 # ==============================
 .DS_Store
 Thumbs.db
+
+assets/

@@ -41,6 +41,16 @@ The dataset used is the **IMDB 50K Movie Reviews Dataset**.
 └── requirment.txt      # المكتبات المطلوبة للتشغيل
 
 ```
+---
+## 🌟 Example Predictions
+
+Here are example inputs and the corresponding sentiment predictions from the model:
+
+| Review Example | Sentiment |
+|----------------|-----------|
+| ![Positive](assets/postive.png) | Positive |
+| ![Negative](assets/negative.png) | Negative |
+
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the repository
