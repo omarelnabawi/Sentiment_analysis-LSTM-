@@ -57,18 +57,7 @@ python -m venv nlp_env
 ```bash
 pip install -r requirement.txt
 ```
-##  Training the Model
 
-```bash
-python src/train.py
-```
-### The model will:
-
-- Train on the dataset
-
-- Save the trained model inside models/
-
-- Save metrics and logs
 ---
 ### 🚀 Running the Project via Streamlit
 
@@ -78,8 +67,15 @@ streamlit run main.py
 ```
 
 - This will open a local web interface where you can input movie reviews and see predicted sentiment (Positive / Negative).
+---
+### The model will:
 
+- Train on the dataset
 
+- Save the trained model inside models/
+
+- Save metrics and logs
+---
 ## 📊 Model Performance
 
 ### 7 epochs model output:
