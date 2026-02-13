@@ -64,11 +64,12 @@ def model_train(i):
     # ==============================
     # Evaluate
     # ==============================
-    loss, accuracy = model.evaluate(x_test, y_test, verbose=0)
+    #loss, accuracy = model.evaluate(x_test, y_test, verbose=0)
 
     #print(f"\nTest Loss: {loss:.4f}")
     #print(f"Test Accuracy: {accuracy:.4f}")
 
     return model
+
 
 
